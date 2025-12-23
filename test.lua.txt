@@ -1,0 +1,43 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "bomayhack",
+         Animation = "🤑"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=140522428954622",
+       Size = {30, 30},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "xây thuyền"})
+     
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "auto farm + build cần key",
+    Callback = function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/TheRealAsu/BABFT/refs/heads/main/Loader.lua'))()
+    end
+    
+})
